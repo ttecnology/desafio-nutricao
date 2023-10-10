@@ -2,6 +2,8 @@
 
 Este projeto é uma aplicação para gerenciamento de informações nutricionais.
 
+Apresentação: https://www.loom.com/share/510a6df8d95d4d0f85473bc7fe212818?t=374&sid=686c5664-23b8-4da6-bf97-40818188e456
+
 ## Tecnologias Utilizadas
 
 - **Laravel:** Framework PHP moderno e poderoso.
