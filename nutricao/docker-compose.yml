@@ -1,0 +1,20 @@
+version: '3.1'
+
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: laravel-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: nutricao
+      MYSQL_USER: ususus
+      MYSQL_PASSWORD: pwpwpw
+    ports:
+      - "3306:3306"
+    networks:
+      - laravel
+
+networks:
+  laravel:
+    driver: bridge
